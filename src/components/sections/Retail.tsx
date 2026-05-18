@@ -138,7 +138,7 @@ export default function Retail() {
                 CHAPTER 02 / RETAIL FOOTPRINT
               </span>
               <h2 className="font-serif text-5xl md:text-7xl font-bold tracking-wide leading-[1.05] text-[#F5F5F0]">
-                THE WORLD'S FIRST <br />
+                THE WORLD&apos;S FIRST <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A440] to-[#E8C96A]">FLAGSHIP PLATFORM.</span>
               </h2>
               <p className="text-[#A8A8A0] text-lg font-light leading-relaxed max-w-xl">

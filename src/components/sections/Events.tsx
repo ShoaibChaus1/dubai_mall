@@ -133,7 +133,7 @@ export default function Events() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C9A440] to-[#E8C96A]">WORLD-CLASS SPECTACLE.</span>
           </h2>
           <p className="text-[#A8A8A0] font-light leading-relaxed mt-6">
-            We don't host events; we provide the default regional launchpad. The Dubai Mall offers brands a massive, multi-dimensional physical stage that turns campaigns into cultural moments.
+            We don&apos;t host events; we provide the default regional launchpad. The Dubai Mall offers brands a massive, multi-dimensional physical stage that turns campaigns into cultural moments.
           </p>
         </div>
 

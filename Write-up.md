@@ -10,12 +10,14 @@ The visual language was heavily inspired by high-end automotive and luxury fashi
 Pitch decks require a linear narrative, but users on the web want control. By tying the narrative progression to the user's scroll wheel (via Lenis smooth scrolling and GSAP ScrollTrigger), we achieved the best of both worlds. The user feels in control, but they are guided through a highly curated, cinematic sequence of information. Horizontal pinning was explicitly chosen for the Retail and Luxury sections to break the monotony of vertical scrolling and to mimic the physical feeling of walking past a row of luxury storefronts.
 
 ## 2. How AI Was Utilized
-This project was built entirely in collaboration with **Google Antigravity**, an advanced agentic coding assistant. The AI was utilized across the entire software development lifecycle:
+This project was built leveraging **Gemini** as a comprehensive creative and technical partner. Gemini was used not just to accelerate the coding process and build fast, but also as a full-scale media engine to generate all the high-quality visual assets. The AI was utilized across the entire software development lifecycle:
 
-* **Initial Scaffolding:** Antigravity set up the Next.js 15 environment, configured Tailwind CSS, and structured the component architecture.
-* **Complex Animation Logic:** GSAP ScrollTrigger mathematics—especially when combining vertical pinning with horizontal translation—can be notoriously difficult to calculate. Antigravity generated the timeline logic, ensuring that scrubbed animations triggered at exactly the right viewport percentages.
-* **Autonomous Debugging:** During development, there were critical bugs where pinned sections overlapped each other, and the right-side navigation dots jumped erratically. I tasked Antigravity with an autonomous audit; it correctly identified that manual `offsetTop` calculations were conflicting with GSAP's injected pin-spacers, and it rewrote the navigation system to use native `ScrollTrigger.create()` instances instead.
-* **Content & Aesthetic Generation:** Antigravity drafted the premium copywriting (e.g., "A Nation-Scale Audience Engine") and iterated on Tailwind classes to perfect the glassmorphism and gradient text effects.
+* **Asset Generation (Images, Video, & Media):** Instead of relying on expensive stock footage or photoshoots, Gemini's advanced multimodal generation capabilities were used to create the stunning, high-fidelity luxury images seen throughout the site. The cinematic intro video, the background atmospheric textures, and the product placeholders were all prompted and generated using AI, ensuring a perfectly cohesive aesthetic.
+
+* **Initial Scaffolding:** Gemini set up the Next.js 15 environment, configured Tailwind CSS, and structured the component architecture.
+* **Complex Animation Logic:** GSAP ScrollTrigger mathematics—especially when combining vertical pinning with horizontal translation—can be notoriously difficult to calculate. Gemini generated the timeline logic, ensuring that scrubbed animations triggered at exactly the right viewport percentages.
+* **Autonomous Debugging:** During development, there were critical bugs where pinned sections overlapped each other, and the right-side navigation dots jumped erratically. I tasked Gemini with an autonomous audit; it correctly identified that manual `offsetTop` calculations were conflicting with GSAP's injected pin-spacers, and it rewrote the navigation system to use native `ScrollTrigger.create()` instances instead.
+* **Content & Aesthetic Generation:** Gemini drafted the premium copywriting (e.g., "A Nation-Scale Audience Engine") and iterated on Tailwind classes to perfect the glassmorphism and gradient text effects.
 
 ## 3. Future Improvements (With More Time)
 If I had more time to expand this project, I would implement the following:

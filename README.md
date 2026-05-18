@@ -18,20 +18,10 @@ This project replaces a traditional static PDF or PowerPoint sales deck with an 
 * **Icons & UI:** Lucide React & Framer Motion.
 * **State Management:** Zustand for lightweight global state (coordinating preloader, intro video, and scroll locks).
 
-## 🚀 Setup Instructions
+## Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ShoaibChaus1/dubai_mall.git
-   cd dubai_mall
-   ```
+First, run the development server:
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**
    ```bash
    npm run dev
    ```

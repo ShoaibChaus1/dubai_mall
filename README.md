@@ -35,12 +35,15 @@ First, run the development server:
 * **Horizontal Pinning Architecture:** Utilized GSAP `ScrollTrigger` to pin vertical scrolling and force horizontal track movement for the Retail and Luxury sections. This maximizes screen real estate and feels highly interactive.
 * **Cinematic Intro:** Implemented a full-screen, auto-playing video sequence with audio controls immediately following the preloader to set the emotional tone before unlocking the main site navigation.
 
-## 🤖 AI Tools Used
-* **Google Antigravity:** This entire project was architected, coded, and debugged using Google's Antigravity agentic coding assistant. It was used to:
-  * Scaffold the Next.js 15 App Router structure.
-  * Generate the complex GSAP timeline math for multi-directional scrolling.
-  * Diagnose and fix highly specific DOM offset and z-index overlap bugs during scroll pinning.
-  * Rapidly iterate on the Tailwind luxury aesthetic based on prompt-driven feedback.
+## 🎯 Evaluation Criteria Addressed
+This project was built to demonstrate a synthesis of frontend engineering and AI-powered interactive design:
+
+* **Design Judgment:** Crafted a dark luxury aesthetic (`#050505` and `#C9A440`) employing glassmorphism, elegant typography, and minimalist UI that aligns with elite global brands.
+* **Frontend Execution:** Built with Next.js 15 and Tailwind v4. Engineered complex horizontal and vertical scroll-pinning architectures using GSAP to maximize screen real estate and interactivity without breaking layouts.
+* **Product Thinking:** Transformed a standard pitch deck into a "Sales Operating System" tailored specifically for conversion (e.g., interactive footfall simulators and high-ticket leasing contact flows).
+* **Storytelling:** Utilized Lenis smooth-scrolling to pace the narrative organically, ensuring the user controls the reveal of metrics and immersive imagery.
+* **Use of AI Tools:** Leveraged **Gemini** as a comprehensive creative and technical partner. Gemini generated the cinematic intro video, atmospheric background textures, and high-fidelity images, while also acting as an agentic coding assistant to accelerate development and debug complex GSAP timeline math.
+* **Performance:** Implemented lazy loading for video assets, optimized media delivery, and carefully decoupled heavy GSAP calculations from React state to maintain a buttery-smooth cinematic experience.
 
 ---
-*Created for portfolio demonstration purposes.*
+*Created as an interactive design and frontend engineering portfolio assignment.*
